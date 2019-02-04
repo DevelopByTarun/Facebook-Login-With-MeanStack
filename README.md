@@ -29,7 +29,7 @@ If you have not already done so, a new application can be created at
 [Facebook Developers](https://developers.facebook.com/). Your application
 will be issued a App Id (API Key) and App Secret (API Secret), which
 need to be provided to the strategy.  You will also need to configure a Callback
-URL which matches the route in your applicationgsfgssgs
+URL which matches the route in your application
 
 ## Copyright
 
