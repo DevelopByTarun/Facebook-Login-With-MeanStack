@@ -3,8 +3,8 @@ var FacebookStrategy = require("passport-facebook").Strategy;
 var logger = require("../database/logger");
 
 passport.use(new FacebookStrategy({
-    clientID: FACEBOOK_CLIENT_ID,
-    clientSecret: FACEBOOK_CLIENT_SECRET,
+    clientID: FACEBOOK_APP_ID,
+    clientSecret: FACEBOOK_APP_SECRET,
     callbackURL: "http://localhost:9090/auth/facebook/callback",
     profileFields: ["username", "email"]
 },
